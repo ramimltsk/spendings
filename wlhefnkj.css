@@ -1,0 +1,198 @@
+body{
+    background-color: hsl(27, 66%, 92%);
+    font-family: "DM Sans", serif;
+}
+
+.everything{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    height: 100vh;
+}
+
+p{
+    font-size: 18px;
+    margin: 0;
+}
+
+.tip h1{
+    margin: 0;
+    font-size: 30px;
+}
+
+.tip{
+    display: flex;
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 10px;
+    justify-content: space-between;
+    width: 20%;
+    padding: 20px;
+    color: white;
+}
+
+.stats{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    gap: 20px;
+}
+
+.main{
+    padding-bottom: 30px;
+}
+
+.main-bottom{
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+
+.stat{
+    background-color: hsl(10, 79%, 65%);
+    width: 40px;
+    height: 10px;
+    border-radius: 5px;
+}
+
+.mon{
+    height: 40px;
+}
+
+.mon:hover{
+    background-color:hsl(10, 49%, 78%) ;
+}
+
+.tue:hover{
+    background-color:hsl(10, 49%, 78%) ;
+}
+
+.thu:hover{
+    background-color:hsl(10, 49%, 78%) ;
+}
+
+.fri:hover{
+    background-color:hsl(10, 49%, 78%) ;
+}
+
+.sat:hover{
+    background-color:hsl(10, 49%, 78%) ;
+}
+
+.sun:hover{
+    background-color:hsl(10, 49%, 78%) ;
+}
+
+
+.tue{
+    height: 80px;
+}
+
+.wed{
+    height: 125px;
+    background-color: hsl(186, 34%, 60%);
+}
+
+.thu{
+    height: 75px;
+}
+
+.fri{
+    height: 50px;
+}
+
+.sat{
+    height: 90px;
+}
+
+.sun{
+    height: 55px;
+}
+
+.names{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 35px;
+}
+
+.names p{
+    width: 25px;
+}
+
+.bottom{
+    border-top: 3px solid hsl(27, 66%, 92%);
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    padding: 25px;
+    font-family: "DM Sans", serif;
+
+}
+
+.bottom h1{
+    margin: 0;
+    font-size: 40px;
+}
+
+.right{
+    text-align: end;
+}
+
+.perc{
+    font-weight: bold;
+}
+
+.num{
+    display: none;
+    background-color: hsl(25, 47%, 15%);
+    width: fit-content;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+    position: absolute;
+}
+
+.monnum{
+    left: 825px;
+    top: 520px;
+}
+
+.tuenum{
+    left: 880px;
+    top: 480px;
+}
+
+
+.wednum{
+    left: 940px;
+    top: 440px;
+}
+
+.thunum{
+    left: 1005px;
+    top: 480px;
+}
+
+.frinum{
+    left: 1068px;
+    top: 510px;
+}
+
+.satnum{
+    left: 1120px;
+    top: 470px;
+}
+
+.sunnum{
+    right: 825px;
+    top: 500px;
+}
+
+
+.wed:hover{
+    background-color: hsl(187, 40%, 79%);
+}
